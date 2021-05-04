@@ -1,6 +1,7 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import { NextPage } from 'next';
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
@@ -9,9 +10,9 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col items-center justify-center flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
+        <h1 className="text-8xl font-bold">
           Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
+          <a className="text-red-800" href="https://nextjs.org">
             Next.js!
           </a>
         </h1>
@@ -78,5 +79,7 @@ export default function Home() {
         </a>
       </footer>
     </div>
-  )
-}
+  );
+};
+
+export default Home;

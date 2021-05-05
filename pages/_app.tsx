@@ -1,4 +1,5 @@
 import { AppProps } from 'next/app';
+import '../css/main.css';
 import 'tailwindcss/tailwind.css';
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {

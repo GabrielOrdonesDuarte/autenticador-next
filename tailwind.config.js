@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 module.exports = {
   mode: 'jit',
@@ -5,9 +6,20 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage: (theme) => ({
-        'img-login': "url('/images/korok_login_background.png')",
-      }),
+      width: {
+        'login-card': '400px',
+        'logo-width': '330px',
+      },
+      colors: {
+        loginBtn: '#65d818',
+        loginBtnActive: '#51ad13',
+      },
+      outline: {
+        zero: '0 !important',
+      },
+      translate: {
+        teste: 'translate(-50%, -50%)',
+      },
     },
   },
   variants: {

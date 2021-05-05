@@ -3,7 +3,7 @@ import { useState, FormEvent } from 'react';
 import InputUsuario from './children/InputUsuario/InputUsuario';
 import InputSenha from './children/InputSenha/InputSenha';
 
-const Form: NextPage = () => {
+const FormLogin: NextPage = () => {
   const [inputValues, setInputValues] = useState({
     username: '',
     password: '',
@@ -52,4 +52,4 @@ const Form: NextPage = () => {
   );
 };
 
-export default Form;
+export default FormLogin;

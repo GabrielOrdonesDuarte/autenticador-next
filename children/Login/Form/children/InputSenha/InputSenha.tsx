@@ -1,8 +1,6 @@
 import { NextPage } from 'next';
-import { faKey } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Aviso from './children/Aviso';
-import IconeInput from '../inputSenha/children/IconeInput';
+import IconeInput from './children/IconeInput';
 
 const InputSenha: NextPage = ({ handleChange, digitouSenha }: any) => {
   return (

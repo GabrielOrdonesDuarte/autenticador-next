@@ -1,5 +1,5 @@
 import { NextPage } from 'next';
-import Form from '../../children/login/form/Form';
+import Form from '../../children/Login/Form/Form';
 
 const Login: NextPage = () => {
   return (

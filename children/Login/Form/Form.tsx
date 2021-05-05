@@ -1,7 +1,7 @@
 import { NextPage } from 'next';
 import { useState, FormEvent } from 'react';
-import InputUsuario from './children/inputUsuario/InputUsuario';
-import InputSenha from './children/inputSenha/InputSenha';
+import InputUsuario from './children/InputUsuario/InputUsuario';
+import InputSenha from './children/InputSenha/InputSenha';
 
 const Form: NextPage = () => {
   const [inputValues, setInputValues] = useState({

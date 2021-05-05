@@ -4,7 +4,7 @@ import IconeInput from './children/IconeInput';
 
 const InputUsuario: NextPage = ({ handleChange, digitouUsuario }: any) => {
   return (
-    <div className="relative w-full flex-wrap items-stretch mb-4">
+    <div className="relative w-full flex-wrap items-stretch mb-9">
       <IconeInput />
       <input
         onChange={(e) => handleChange(e)}

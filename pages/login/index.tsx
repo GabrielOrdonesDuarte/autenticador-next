@@ -8,7 +8,10 @@ const Login: NextPage = () => {
 
   return (
     <>
-      <div className="bg-white w-login-card absolute top-2/4 left-2/4 shadow-2xl rounded-xl px-6 pb-8 transform -translate-x-2/4 -translate-y-2/4">
+      <div
+        data-cy="login-card"
+        className="bg-white w-login-card absolute top-2/4 left-2/4 shadow-2xl rounded-xl px-6 pb-8 transform -translate-x-2/4 -translate-y-2/4"
+      >
         <img
           src="/images/korok.png"
           alt="Logo"
@@ -19,6 +22,7 @@ const Login: NextPage = () => {
         </p>
         {redefinirSenha ? <FormRedefinirSenha /> : <FormLogin />}
         <span
+          data-cy="redefinir-senha-link"
           onClick={() => {
             setRedefinirSenha((redefinirSenha) => !redefinirSenha);
           }}

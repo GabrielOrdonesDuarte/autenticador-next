@@ -43,6 +43,7 @@ const FormLogin: NextPage = () => {
       />
       <InputSenha handleChange={handleChange} digitouSenha={digitouSenha} />
       <button
+        data-cy="entrar-btn"
         type="submit"
         className="bg-loginBtn text-white tracking-widest uppercase mx-auto block rounded-full py-2 px-8 border-2 border-gray-600 text-lg focus:outline-zero active:bg-loginBtnActive"
       >

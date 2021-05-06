@@ -7,10 +7,12 @@ const InputSenha: NextPage = ({ handleChange, digitouSenha }: any) => {
     <div className="relative flex w-full flex-wrap items-stretch mb-9">
       <IconeInput />
       <input
+        data-cy="input-senha"
         onChange={(e) => handleChange(e)}
         type="password"
         name="password"
         id="senha"
+        placeholder="Senha"
         className="border-2 border-gray-200 px-3 py-3 relative bg-white rounded text-sm outline-none w-full pl-10 focus:outline-zero focus:border-green-800 focus:bg-gray-100"
       />
       <Aviso digitouSenha={digitouSenha} />

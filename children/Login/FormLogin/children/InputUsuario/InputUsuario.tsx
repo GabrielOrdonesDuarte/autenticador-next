@@ -1,11 +1,13 @@
 import { NextPage } from 'next';
+import Icone from '../../../../../components/Icone/Icone';
 import Aviso from './children/Aviso';
-import IconeInput from './children/IconeInput';
 
 const InputUsuario: NextPage = ({ handleChange, digitouUsuario }: any) => {
   return (
     <div className="relative w-full flex-wrap items-stretch mb-4">
-      <IconeInput />
+      <span className="z-10 h-full leading-snug font-normal text-center text-blueGray-300 absolute bg-transparent rounded text-base items-center justify-center w-8 pl-3 py-3">
+        <Icone icon="envelope" iconStyle="fas" classe="text-gray-400" />
+      </span>
       <input
         data-cy="input-usuario"
         onChange={(e) => handleChange(e)}

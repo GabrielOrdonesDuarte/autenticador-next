@@ -1,9 +1,8 @@
 import { useState } from 'react';
-import { NextPage } from 'next';
 import FormLogin from '../../children/Login/FormLogin/FormLogin';
 import FormRedefinirSenha from '../../children/Login/FormRedefinirSenha/FormRedefinirSenha';
 
-const Login: NextPage = () => {
+const Login: any = () => {
   const [redefinirSenha, setRedefinirSenha] = useState(false);
 
   return (

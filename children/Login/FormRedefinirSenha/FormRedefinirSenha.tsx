@@ -1,8 +1,7 @@
-import { NextPage } from 'next';
 import { useState, FormEvent } from 'react';
 import InputUsuario from './children/InputUsuario/InputUsuario';
 
-const FormRedefinirSenha: NextPage = () => {
+const FormRedefinirSenha: any = () => {
   const [inputValues, setInputValues] = useState({
     username: '',
   });

@@ -1,8 +1,7 @@
-import { NextPage } from 'next';
 import Icone from '../../../../../components/Icone/Icone';
 import Aviso from './children/Aviso';
 
-const InputUsuario: NextPage = ({ handleChange, digitouUsuario }: any) => {
+const InputUsuario: any = ({ handleChange, digitouUsuario }) => {
   return (
     <div className="relative w-full flex-wrap items-stretch mb-9">
       <span className="z-10 h-full leading-snug font-normal text-center text-blueGray-300 absolute bg-transparent rounded text-base items-center justify-center w-8 pl-3 py-3">
